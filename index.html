@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloud Storage</title>
-    <link rel="stylesheet" href="assents/css/estilos.css">
-    <style>
-        body {
-            background-image: url(assents/img/fondo.jpg);
-            background-repeat: no-repeat;
-            background-size: cover ;
-            background-attachment: fixed;
-        }
-    </style>
+    <title>TurboDelivery</title>
+    <link rel="stylesheet" href="assents/css/styles.css">
 </head>
-<body style="background-color: rgb(50, 94, 241); color:rgb(255, 255, 255);">
-    <div>
-        <img id="logo" src="assents/img/Logo.png" alt="Logo-Could-Storage" height="120vh">
+<body>
+    <div id="head-logo">
+        <img id="logo" src="assents/img/Fondo-icono.jpeg" alt="Logo">
     </div>
-    <div>
-        <section id="formulario">
-            <h1>Sing In</h1>
-            <input type="text" placeholder="Name">
-            <input type="password" placeholder=" password">
-            <input type="button" value="Sing in">
-        </section>
+    <div id="container">
+        <div id="fondo-moto">
+            <img src="assents/img/Captura de pantalla 2023-07-29 151155.jpg" alt="fondo-moto">
+        </div>
+        <div id="secti">
+            <section id="formulario">
+                <h1>Inicio de Sesion Administrador</h1>
+                <input id="user" type="text" placeholder="Usuario">
+                <input id="passw" type="password" placeholder="Contraseña">
+                <input onclick="location.href='menu.html'" id="boton-login" type="button" value="Iniciar Sesion">
+            </section>
+        </div>
     </div>
+    <script src="assents/js/controlador.js" ></script>
 </body>
 </html>
