@@ -17,7 +17,7 @@ function MostrarInputs(){
     {
         nombreRestaurante: "BurgerKing",
         categoria: "hamburguesas",
-        urlImagen: 'assents/img/burgeking.jpg',
+        urlImagen: 'assents/img/BK.png',
         horaAtencion: "9:00am-8:00pm",
     },
     {
@@ -52,7 +52,7 @@ function MostrarInputs(){
         horaAtencion: "8:00am-8:00pm",
     },
     {
-        nombreRestaurante: "Churchs Chicken Texas",
+        nombreRestaurante: "Churchs Texas",
         categoria: "pollo",
         urlImagen: 'assents/img/ChursChi.png',
         horaAtencion: "7:00am-8:00pm",
@@ -62,7 +62,7 @@ function MostrarInputs(){
 function generarRestaurantes() {
     restaurantes.forEach(function(rest){
         document.getElementById('restaurantes').innerHTML += 
-    `<div class="col-xl-2">
+    `<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
         <div class="card">
             <img src="${rest.urlImagen}" class="card-img-top" >
                 <div class="card-body">
