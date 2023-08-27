@@ -6,6 +6,8 @@ function MostrarInputs(){
     console.log(passw);
 }
 
+
+
   var restaurantes = [
     {
         nombreRestaurante: "McDonal's",

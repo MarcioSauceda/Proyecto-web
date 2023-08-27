@@ -42,7 +42,8 @@
     width: 50%;
     margin-left: 25%;
     font-size: 15px;
-    cursor: pointer;   
+    cursor: pointer; 
+    border: 0px;  
 }
 
 #botones{
